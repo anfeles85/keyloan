@@ -41,6 +41,7 @@
             // 
             labelEmployees.AutoSize = true;
             labelEmployees.BackColor = Color.White;
+            labelEmployees.Cursor = Cursors.Hand;
             labelEmployees.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             labelEmployees.ForeColor = SystemColors.Highlight;
             labelEmployees.Location = new Point(49, 49);
@@ -54,6 +55,7 @@
             // labelKeys
             // 
             labelKeys.BackColor = Color.White;
+            labelKeys.Cursor = Cursors.Hand;
             labelKeys.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             labelKeys.ForeColor = SystemColors.Highlight;
             labelKeys.Location = new Point(49, 140);
@@ -67,6 +69,7 @@
             // labelRecords
             // 
             labelRecords.BackColor = Color.White;
+            labelRecords.Cursor = Cursors.Hand;
             labelRecords.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             labelRecords.ForeColor = SystemColors.Highlight;
             labelRecords.Location = new Point(49, 242);
@@ -80,6 +83,7 @@
             // labelClose
             // 
             labelClose.BackColor = Color.White;
+            labelClose.Cursor = Cursors.Hand;
             labelClose.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             labelClose.ForeColor = SystemColors.Highlight;
             labelClose.Location = new Point(49, 348);

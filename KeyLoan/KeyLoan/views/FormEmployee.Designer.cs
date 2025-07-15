@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEmployee));
             dataGridViewEmployees = new DataGridView();
-            label1 = new Label();
+            labelDocument = new Label();
             textBoxDocument = new TextBox();
             label2 = new Label();
             textBoxName = new TextBox();
@@ -66,15 +66,15 @@
             dataGridViewEmployees.TabIndex = 0;
             dataGridViewEmployees.CellClick += dataGridViewEmployees_CellClick;
             // 
-            // label1
+            // labelDocument
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label1.Location = new Point(40, 82);
-            label1.Name = "label1";
-            label1.Size = new Size(95, 20);
-            label1.TabIndex = 1;
-            label1.Text = "Documento:";
+            labelDocument.AutoSize = true;
+            labelDocument.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            labelDocument.Location = new Point(40, 82);
+            labelDocument.Name = "labelDocument";
+            labelDocument.Size = new Size(95, 20);
+            labelDocument.TabIndex = 1;
+            labelDocument.Text = "Documento:";
             // 
             // textBoxDocument
             // 
@@ -244,7 +244,7 @@
             Controls.Add(textBoxName);
             Controls.Add(label2);
             Controls.Add(textBoxDocument);
-            Controls.Add(label1);
+            Controls.Add(labelDocument);
             Controls.Add(dataGridViewEmployees);
             Name = "FormEmployee";
             StartPosition = FormStartPosition.CenterScreen;
@@ -259,7 +259,7 @@
         #endregion
 
         private DataGridView dataGridViewEmployees;
-        private Label label1;
+        private Label labelDocument;
         private TextBox textBoxDocument;
         private Label label2;
         private TextBox textBoxName;

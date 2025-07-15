@@ -172,12 +172,12 @@ namespace KeyLoan.views
         private void pictureBoxHome_Click(object sender, EventArgs e)
         {
             new FormMain().Show();
-            Close();
+            Dispose();
         }
 
         private void FormEmployee_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit(); 
+            Application.Exit();           
         }
     }
 }

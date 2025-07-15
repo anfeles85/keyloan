@@ -163,11 +163,7 @@ namespace KeyLoan.views
             }
         }
 
-        private void pictureBoxHome_Click(object sender, EventArgs e)
-        {
-            new FormMain().Show();
-            Close();
-        }
+        
 
         private void dataGridViewRecords_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -188,6 +184,12 @@ namespace KeyLoan.views
             buttonInsert.Enabled = false;
             buttonDelete.Enabled = true;
             buttonUpdate.Enabled = true;
+        }
+
+        private void pictureBoxHome_Click(object sender, EventArgs e)
+        {
+            new FormMain().Show();
+            Dispose();
         }
 
         private void FormRecord_FormClosed(object sender, FormClosedEventArgs e)

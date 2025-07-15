@@ -12,19 +12,19 @@ namespace KeyLoan
         private void labelEmployees_Click(object sender, EventArgs e)
         {
             new FormEmployee().Show();
-            Close();
+            Dispose();
         }
 
         private void labelRecords_Click(object sender, EventArgs e)
         {
             new FormRecord().Show();
-            Close();
+            Dispose();
         }
 
         private void labelKeys_Click(object sender, EventArgs e)
         {
             new FormKeys().Show();
-            Close();
+            Dispose();
         }
 
         private void labelClose_Click(object sender, EventArgs e)

@@ -155,7 +155,7 @@ namespace KeyLoan.views
         private void pictureBoxHome_Click(object sender, EventArgs e)
         {
             new FormMain().Show();
-            Close();
+            Dispose();
         }
 
         private void FormKeys_FormClosed(object sender, FormClosedEventArgs e)
